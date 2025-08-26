@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Atrativos Turísticos - São José do Rio Pardo - SP</title>
+
+<style>
+/* Estilo do container das imagens e textos */
+.img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilo das imagens */
+.img-container img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+/* Estilo do grid principal */
+.w3-row-padding {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Cada bloco ocupa 45% da largura e tem altura igual */
+.w3-col {
+    flex: 1 1 45%;
+    min-width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Faz os cards internos ocuparem altura máxima possível */
+.w3-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Conteúdo dentro do card */
+.w3-card .w3-container {
+    flex-grow: 1;
+}
+
+ /* Fixando o botão de Topo no canto inferior direito */
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color:#5ba2ba; 
+}
+
+/* Estilo da seta animada */
+.arrow {
+      display: inline-block;
+      animation: bounce 1s infinite;
+      font-size: 20px;
+    }
+
+/* Definição da animação chamada "bounce" */
+@keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+    }
+      50% {
+        transform: translateY(-5px);
+    }
+}
+
+</style>
+</head>
+
+<body class="w3-center w3-text-white" style="background-color: #067695;">
+
+    <!-- Âncora no topo -->
+    <a id="top"></a>
+
+    <!-- Título Principal -->
+    <div class="w3-container">
+        <h1>Atrativos Turísticos - São José do Rio Pardo - SP</h1>
+    </div>
+
+    <!-- Container dos Cards -->
+    <div class="w3-container">
+
+        <!-- Ilha de São Pedro -->
+        <div class="w3-row-padding w3-margin-top w3-center">
+            <div class="w3-col s12 m6 l6">
+                <div class="w3-container w3-center" style="background-color:#5ba2ba;">
+                    <h2>Ilha de São Pedro</h2>
+                </div>
+                <div class="w3-card img-container">
+                    <img src="img\Ilha_Sao_Pedro.webp" class="w3-opacity w3-hover-opacity-off">
+                    <div class="w3-container">
+                        <p>Situada praticamente no centro da cidade, é local de grande interesse turístico, sendo um dos mais visitados da cidade. Abriga um mini zoológico e um parque florestal. Recentemente passou por uma ampla reforma em suas instalações, que passou a contar com uma grande sala multiuso, apropriada para exposições de arte, apresentações musicais, aulas de educação ambiental, entre outras atividades. No mesmo local será instalada uma cafeteria, para apoio e alimentação dos visitantes. O acesso à Ilha se faz através de ponte pênsil.</p>
+                    </div>
+                    <div>
+                        <h3>Fonte: <a href="https://saojosedoriopardo.sp.gov.br/pontos-turisticos/" target="_blank" class="w3-hover-opacity w3-hover-white">São José do Rio Pardo</a></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cristo Redentor -->
+            <div class="w3-col s12 m6 l6">
+                <div class="w3-container w3-center" style="background-color:#5ba2ba;">
+                    <h2>Cristo Redentor</h2>
+                </div>
+                <div class="w3-card img-container">
+                    <img src="img\Cristo_Redentor.webp" class="w3-opacity w3-hover-opacity-off ">
+                    <div class="w3-container">
+                        <p>Imponente estátua construída em Campinas e trazida desmontada para esta cidade, nos anos 40. Colocada num dos morros circundantes, tem ao todo 17 metros, sendo 5 do pedestal, que abriga pequena capela. Os 17 metros lembrariam as 17 letras do nome de São José do Rio Pardo. Descortina-se de lá excelente panorama. É ponto de grande interesse turístico, a que se chega por estrada asfaltada, com amplo espaço para estacionamento de veículos.</p>
+                    </div>
+                    <div>
+                        <h3>Fonte: <a href="https://saojosedoriopardo.sp.gov.br/pontos-turisticos/" target="_blank" class="w3-hover-opacity w3-hover-white">São José do Rio Pardo</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Praça dos Três Poderes -->
+        <div class="w3-row-padding w3-margin-top w3-center">
+            <div class="w3-col s12 m6 l6">
+                <div class="w3-container w3-center" style="background-color:#5ba2ba;">
+                    <h2>Praça dos Três Poderes</h2>
+                </div>
+                <div class="w3-card img-container">
+                    <img src="img\Praca_Tres_Poderes.webp" class="w3-opacity w3-hover-opacity-off ">
+                    <div class="w3-container">
+                        <p>A Praça dos Três Poderes reúne os poderes: legislativo, executivo e judiciário do município. Neste mesmo quarteirão, até 1908 existiu o primeiro Cemitério Municipal. Após a sua completa remoção, no local foi construído o Jardim do Artese, idealizado pelo artista e construtor Paschoal Artese, em 1914. Com a expansão da cidade, o espaço deixado pelo primeiro Cemitério Municipal e pelo Jardim do Artese foi ocupado pelo conjunto harmonioso de belos prédios dos Três Poderes: o Legislativo, com a Câmara Municipal, o Executivo, com a Prefeitura Municipal e o Judiciário, com o Fórum Jovino de Sylos, inaugurados em 15 de agosto de 1968, com a presença do Governador Abreu Sodré e secretários de Estado.</p>
+                    </div>
+                    <div>
+                        <h3>Fonte: <a href="https://saojosedoriopardo.sp.gov.br/pontos-turisticos/" target="_blank" class="w3-hover-opacity w3-hover-white">São José do Rio Pardo</a></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Museu Rio-Pardense Arsênio Frigo -->
+            <div class="w3-col s12 m6 l6">
+                <div class="w3-container w3-center" style="background-color:#5ba2ba;">
+                    <h2>Museu Rio-Pardense Arsênio Frigo</h2>
+                </div>
+                <div class="w3-card img-container">
+                    <img src="img\museu.jpeg" class="w3-opacity w3-hover-opacity-off">
+                    <div class="w3-container">
+                        <p>Instalado no antigo prédio (1896) que abrigou a Prefeitura, Câmara Municipal e Cadeia. O prédio, localizado na Praça Capitão Vicente Dias, preservado e restaurado, foi transformado em museu cem anos depois da sua inauguração. Expõe peças recolhidas das antigas fazendas da região; utensílios de farmácia; objetos que pertencem a pessoas ligadas à história da cidade. Sua curadoria organiza calendário de exposições de arte, destacando artistas locais e regionais.</p>
+                    </div>
+                    <div>
+                        <h3>Fonte: <a href="https://vemprariopardo.sp.gov.br/espaco-de-atracao-turistica/museu-rio-pardense-arsenio-frigo/3292" target="_blank" class="w3-hover-opacity w3-hover-white">São José do Rio Pardo</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Teatro de Arena Epidauro -->
+        <div class="w3-row-padding w3-margin-top w3-center">
+            <div class="w3-col s12 m6 l6">
+                <div class="w3-container w3-center" style="background-color:#5ba2ba;">
+                    <h2>Teatro de Arena Epidauro</h2>
+                </div>
+                <div class="w3-card img-container">
+                    <img src="img\teatro.jpeg" class="w3-opacity w3-hover-opacity-off">
+                    <div class="w3-container">
+                        <p>Em 1994 pensava-se na construção de um teatro de arena na cidade, para difusão da cultura. O nome foi sugerido pelo jornalista Fernando de Syllos, derivado da cidade grega chamada Epidauro. O local escolhido, a Praça Oliveiros Pinheiros, tradicionalmente frequentado por estudantes de três instituições de ensino próximas, aproveitou-se do desnível do terreno para as arquibancadas. O projeto do arquiteto Luís Paulo Cobra Monteiro foi arrojado, em uma área de aproximadamente 400 m², tendo sua cobertura em forma de elipse. Foi inaugurado em setembro de 1996, com apresentação da Orquestra Sinfônica de Rio Claro, com presença de quase 2 mil pessoas. É utilizado para apresentações ao ar livre: shows, representações teatrais, danças, corais, entre outras formas de arte.</p>
+                    </div>
+                    <div>
+                        <h3>Fonte: <a href="https://vemprariopardo.sp.gov.br/espaco-de-atracao-turistica/teatro-de-arena-epidauro/3202" target="_blank" class="w3-hover-opacity w3-hover-white">São José do Rio Pardo</a></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mausoléu Euclides da Cunha -->
+            <div class="w3-col s12 m6 l6">
+                <div class="w3-container w3-center" style="background-color:#5ba2ba;">
+                    <h2>Mausoléu Euclides da Cunha</h2>
+                </div>
+                <div class="w3-card img-container">
+                    <img src="img\mausoleu.jpeg" class="w3-opacity w3-hover-opacity-off">
+                    <div class="w3-container">
+                        <p>Local onde está enterrado o corpo do escritor Euclides da Cunha, falecido em 15 de agosto de 1909, depois de um trágico episódio envolvendo a sua esposa e o filho. O mausoléu foi inaugurado no centenário de nascimento do escritor (1966), com a presença de sua filha, Dona Maria Euclides da Cunha Lima. Está localizado no cemitério da cidade, no centro do município, e é um dos mais visitados pontos turísticos, em razão da relação com o autor de "Os Sertões".</p>
+                    </div>
+                    <div>
+                        <h3>Fonte: <a href="https://vemprariopardo.sp.gov.br/espaco-de-atracao-turistica/mausoleu-euclides-da-cunha/3208" target="_blank" class="w3-hover-opacity w3-hover-white">São José do Rio Pardo</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <a href="#top" class="w3-button w3-round-large top-button">
+            <span class="arrow">⇡</span> Topo
+        </a>
+        <br>
+    </div>
+<!-- Botão que leva ao Topo e configuração da seta subindo e descendo fiz usando o ChatGPT, queria deixar mais estilisado e por isso resolvi adicionar, só por estética.-->
+</body>
+</html>
